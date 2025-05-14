@@ -9,7 +9,7 @@ from .tools.list_corpora import list_corpora
 from .tools.rag_query import rag_query
 
 root_agent = Agent(
-    name="RagAgent",
+    name="rag_agent",
     # Using Gemini 2.5 Flash for best performance with RAG operations
     model="gemini-2.5-flash-preview-04-17",
     description="Vertex AI RAG Agent",
